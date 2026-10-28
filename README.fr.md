@@ -1,5 +1,14 @@
 # AntiSogou Vanced
 
+## 🌐 Languages
+
+Interface available in 10 languages:
+
+> 🇬🇧 English | 🇷🇺 Русский | 🇺🇦 Українська | 🇰🇿 Қазақша | 🇩🇪 Deutsch | 🇫🇷 Français | 🇪🇸 Español | 🇵🇱 Polski | 🇹🇷 Türkçe | 🇨🇳 中文
+
+The active language is auto-detected from the system locale; switch it with the dropdown in the top-right corner of the app (or this file's sibling `translations.py`).
+
+
 [![Release](https://img.shields.io/github/v/release/retvil/AntiSogouVanced?sort=date)](https://github.com/retvil/AntiSogouVanced/releases) [![Platform Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/retvil/AntiSogouVanced/releases) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
 **Supprime complètement Sogou Browser et verrouille ta recherche par défaut contre le détournement — 28 vecteurs de détection (VANCED) / 39 vecteurs de détection (EXTENDED), 10 moteurs de recherche, 10 langues d'interface.**
