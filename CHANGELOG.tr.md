@@ -166,7 +166,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 
 ## [2.0.0] - 2026-10-20
 
-[TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou) 1.3 çatalı.
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3 çatalı.
 
 ### Eklendi
 - **Arama ele geçirme tarayıcısı** — Sogou'in varsayılan
@@ -215,7 +215,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 
 ## [1.3.0] - upstream
 
-[TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou) tabanı:
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) tabanı:
 - Sogou Browser süreçlerinin sonlandırılması (`browser.exe`, `sogou.exe`)
 - Kurulum yollarının aranması
 - Kayıt defterindeki Uninstall girdilerinin temizlenmesi
@@ -226,3 +226,4 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 [2.1.2]: https://github.com/retvil/AntiSogouVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiSogouVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiSogouVanced/compare/v1.3.0...v2.0.0
+

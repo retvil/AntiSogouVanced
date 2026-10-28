@@ -141,7 +141,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - 2026-10-20
 
-Fork of [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou) 1.3.
+Fork of [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
 
 ### Added
 - **Search hijack scanner** — detects 11 vectors Sogou uses to install itself as default search/browser:
@@ -177,7 +177,7 @@ Fork of [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou) 1.3.
 
 ## [1.3.0] - upstream
 
-Baseline from [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou):
+Baseline from [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
 - Sogou Browser process termination (`browser.exe`, `sogou.exe`)
 - Installation path search
 - Uninstall registry entry cleanup
@@ -188,3 +188,4 @@ Baseline from [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou):
 [2.1.2]: https://github.com/retvil/AntiSogouVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiSogouVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiSogouVanced/compare/v1.3.0...v2.0.0
+

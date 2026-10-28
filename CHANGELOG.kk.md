@@ -160,7 +160,7 @@
 
 ## [2.0.0] - 2026-10-20
 
-[TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou) 1.3 форкі.
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3 форкі.
 
 ### Қосылды
 - **Іздеу hijack сканері** — Sogouтің әдепкі іздеу/браузер болып тіркелуіне
@@ -206,7 +206,7 @@
 
 ## [1.3.0] - upstream
 
-[TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou) базасы:
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) базасы:
 - Sogou Browser процестерін аяқтау (`browser.exe`, `sogou.exe`)
 - Орнату жолдарын іздеу
 - Реестрдегі Uninstall жазбаларын тазарту
@@ -217,3 +217,4 @@
 [2.1.2]: https://github.com/retvil/AntiSogouVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiSogouVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiSogouVanced/compare/v1.3.0...v2.0.0
+

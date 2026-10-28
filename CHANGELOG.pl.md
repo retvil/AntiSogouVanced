@@ -162,7 +162,7 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [2.0.0] - 2026-10-20
 
-Fork [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou) 1.3.
+Fork [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
 
 ### Dodano
 - **Skaner przejęć wyszukiwania** — wykrywa 11 wektorów, którymi Sogou
@@ -211,7 +211,7 @@ Fork [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou) 1.3.
 
 ## [1.3.0] - upstream
 
-Baza [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou):
+Baza [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
 - Zakończenie procesów Sogou Browser (`browser.exe`, `sogou.exe`)
 - Wyszukiwanie ścieżek instalacji
 - Czyszczenie wpisów Uninstall w rejestrze
@@ -222,3 +222,4 @@ Baza [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou):
 [2.1.2]: https://github.com/retvil/AntiSogouVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiSogouVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiSogouVanced/compare/v1.3.0...v2.0.0
+
