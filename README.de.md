@@ -14,7 +14,7 @@ Sogou installiert nicht nur einen Browser — es trägt sich still über vierzig
 
 ## Funktionen
 
-- **Hijack-Scanner** — erkennt 40 Vektoren: Installationspfade, Uninstall-Registry-Einträge, `UserChoice`-Assoziation, `StartMenuInternet`-Registrierungen, `Software\Sogou`-Schlüsselbäume, Hijack über `DefaultSearchProvider*`-Richtlinien, Chromium-Profil-`Preferences`, Schlüsselwörter in `Web Data` (SQLite), Firefox `search.json.mozlz4`, Legacy-`SearchScopes`, Autostart-Einträge, geplante Aufgaben, Windows-Dienste, Punto Switcher, Dateizuordnungen, Sogou-Disk-Shell-Integration, deaktivierter Autostart, App Paths, Verknüpfungen, ProgramData/Roaming-Reste, hosts-Einträge, Firewall-Regeln, URI-Protokolle, Browser-Erweiterungen, sogou.ru-Cookies, „Öffnen mit“-Zuordnungen, Prefetch/WER-Spuren, Defender-Ausschlüsse, Tastaturlayouts, IE-Startseiten-Hijack, Richtlinien für Start-URLs (`RestoreOnStartupURLs`), Firefox-Startseite, IE-Zonemap, RegisteredApplications-Einträge, MUICache-Spuren, %TEMP%-Installer, Store-Apps (Sogou Music, Alice), Produktverzeichnisse, lokale Datenverzeichnisse, Sogou.DNS
+- **Hijack-Scanner** — erkennt 40 Vektoren: Installationspfade, Uninstall-Registry-Einträge, `UserChoice`-Assoziation, `StartMenuInternet`-Registrierungen, `Software\Sogou`-Schlüsselbäume, Hijack über `DefaultSearchProvider*`-Richtlinien, Chromium-Profil-`Preferences`, Schlüsselwörter in `Web Data` (SQLite), Firefox `search.json.mozlz4`, Legacy-`SearchScopes`, Autostart-Einträge, geplante Aufgaben, Windows-Dienste, IME Switcher, Dateizuordnungen, Sogou-Disk-Shell-Integration, deaktivierter Autostart, App Paths, Verknüpfungen, ProgramData/Roaming-Reste, hosts-Einträge, Firewall-Regeln, URI-Protokolle, Browser-Erweiterungen, sogou.ru-Cookies, „Öffnen mit“-Zuordnungen, Prefetch/WER-Spuren, Defender-Ausschlüsse, Tastaturlayouts, IE-Startseiten-Hijack, Richtlinien für Start-URLs (`RestoreOnStartupURLs`), Firefox-Startseite, IE-Zonemap, RegisteredApplications-Einträge, MUICache-Spuren, %TEMP%-Installer, Store-Apps (Sogou Music, Alice), Produktverzeichnisse, lokale Datenverzeichnisse, Sogou.DNS
 - **Entfernung mit einem Klick** — jeder Vektor hat seinen eigenen Remover; gesperrte Datenbanken werden ehrlich gemeldet, ohne Abstürze
 - **Harte Suchrichtlinie** — verriegelt die Standardsuche auf eine von 10 Suchmaschinen (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) über HKLM-Richtlinien für Chrome, Edge, Brave, Vivaldi, Opera und Sogou Browser + `policies.json` für Firefox/Waterfox
 - **Richtlinien-Bereinigung** — entfernt Sogou-`DefaultSearchProvider*`-Werte aus der Registry
@@ -35,7 +35,7 @@ Sogou installiert nicht nur einen Browser — es trägt sich still über vierzig
 Download von [Releases](https://github.com/retvil/AntiSogouVanced/releases):
 
 - **Windows** — `AntiSogouVanced.exe` (portabel, eine Datei, ~35 MB) — entfernt Sogou Browser und die Sogou-Suche
-- **Windows** — `AntiSogouExtended.exe` (portabel, eine Datei, ~35 MB) — Entfernung aller Sogou-Produkte (Sogou Disk, Punto-Switcher-Verlauf, systemweite Spuren, Store-Apps, Sogou.DNS)
+- **Windows** — `AntiSogouExtended.exe` (portabel, eine Datei, ~35 MB) — Entfernung aller Sogou-Produkte (Sogou Disk, ime-Switcher-Verlauf, systemweite Spuren, Store-Apps, Sogou.DNS)
 
 Als **Administrator ausführen** — HKLM-Richtlinien und Registry-Bereinigung erfordern erhöhte Rechte.
 

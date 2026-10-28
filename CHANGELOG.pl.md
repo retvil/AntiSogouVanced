@@ -46,16 +46,16 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Dodano
 - **Wydanie Extended**: skan aplikacji Store (Appx) — wykrywa Sogou Music,
-  Alice, Messenger i inne aplikacje Store Sogou, usuwa je przez
+  Messenger, Messenger i inne aplikacje Store Sogou, usuwa je przez
   `Remove-AppxPackage`
 - **Wydanie Extended**: skan katalogów produktów nieprzeglądarkowych pod
-  `Program Files\Sogou\` (Sogou Disk, Punto Switcher, IME, ...) z kopią
+  `Program Files\Sogou\` (Sogou Disk, Sogou IME Switcher, IME, ...) z kopią
   zapasową przed usunięciem
 - **Wydanie Extended**: skan lokalnych danych nieprzeglądarkowych pod
-  `%LOCALAPPDATA%\Sogou\` (lokalne dane Punto Switcher, updater Sogou
+  `%LOCALAPPDATA%\Sogou\` (lokalne dane Sogou IME Switcher, updater Sogou
   Disk, buildy Beta) — z potwierdzeniem, kopia zapasowa przed usunięciem
 - **Wydanie Extended**: „Kill Processes” kończy teraz procesy wszystkich
-  produktów Sogou (Sogou Disk, Punto Switcher, aplikacje Store), nie
+  produktów Sogou (Sogou Disk, Sogou IME Switcher, aplikacje Store), nie
   tylko przeglądarki
 
 ## [2.5.0] - 2026-10-21
@@ -81,7 +81,7 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   `OpenWithProgids`/`OpenWithList`, ślady Prefetch / CrashDumps / WER,
   wyjątki Windows Defender, niestandardowe układy klawiatury (Sogou IME)
 - Potwierdzenie zgody: znaleziska dotykające danych użytkownika (pliki
-  Sogou Disk, historia Punto Switcher, rozszerzenia, ciasteczka, wyjątki
+  Sogou Disk, historia Sogou IME Switcher, rozszerzenia, ciasteczka, wyjątki
   Defender) wymagają jawnego dodatkowego potwierdzenia przed usunięciem
 - Testy jednostkowe dla detekcji bajtów `.lnk`, filtrowania linii hosts,
   parsowania wyjścia zapory i pokrycia prefiksów zgody
@@ -90,8 +90,8 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Dodano
 - Wektory przejęcia 13–15: usługi Windows (skan po rejestrze, usuwanie
-  przez `sc stop` + `sc delete`), Punto Switcher (detekcja po markerze
-  `punto`), skojarzenia plików (skan + usunięcie ProgId w
+  przez `sc stop` + `sc delete`), Sogou IME Switcher (detekcja po markerze
+  `ime`), skojarzenia plików (skan + usunięcie ProgId w
   `FileExts\<ext>\UserChoice`)
 - Dialog wyboru po skanie: wybór dokładnie, które znaleziska usunąć,
   zamiast „wszystko albo nic”
@@ -99,7 +99,7 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   `%APPDATA%\AntiSogouVanced\exclusions.json` — przyszłe skany automatycznie
   je odznaczają, ale pozostają wybieralne w dialogu; wykluczenia można
   zresetować z dialogu
-- Testy jednostkowe persystencji wykluczeń i markera Punto Switcher
+- Testy jednostkowe persystencji wykluczeń i markera Sogou IME Switcher
 
 ## [2.2.0] - 2026-10-20
 
@@ -141,7 +141,7 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [2.1.2] - 2026-10-20
 
 ### Zmieniono
-- Tytuł aplikacji skrócony do „Удаление Яндекс” / „Remove Sogou”
+- Tytuł aplikacji skrócony do „Удаление Sogou” / „Remove Sogou”
   (ru/en/uk)
 - Stopka przypięta do prawego dolnego rogu: autor, wersja i klikalny link
   do GitHub
