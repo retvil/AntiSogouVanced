@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/github/v/release/retvil/AntiSogouVanced?sort=date)](https://github.com/retvil/AntiSogouVanced/releases) [![Platform Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/retvil/AntiSogouVanced/releases) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
-**Sogou Browser vollständig entfernen und die Standardsuche hart gegen Entführung sichern — 40 Erkennungsvektoren, 10 Suchmaschinen, 10 UI-Sprachen.**
+**Sogou Browser vollständig entfernen und die Standardsuche hart gegen Entführung sichern — 28 Erkennungsvektoren (VANCED) / 39 Erkennungsvektoren (EXTENDED), 10 Suchmaschinen, 10 UI-Sprachen.**
 
 [🇬🇧 English](README.md) | [🇷🇺 Русский](README.ru.md) | [🇺🇦 Українська](README.uk.md) | [🇰🇿 Қазақша](README.kk.md) | **🇩🇪 Deutsch** | [🇫🇷 Français](README.fr.md) | [🇪🇸 Español](README.es.md) | [🇵🇱 Polski](README.pl.md) | [🇹🇷 Türkçe](README.tr.md) | [🇨🇳 中文](README.zh.md)
 
@@ -10,11 +10,11 @@
 
 Sogou installiert nicht nur einen Browser — es trägt sich still über vierzig Systemmechanismen als Standardsuche und Standardbrowser ein: Registry-Assoziationen, Enterprise-Richtlinien, Profileinstellungen von Browsern, sogar Suchmaschinen-Datenbanken in Chromium-Profilen. Allein das Entfernen des Browsers macht das nicht rückgängig.
 
-**AntiSogou Vanced** (ein Fork von [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou)) findet **alle 40 Hijack-Vektoren**, entfernt sie mit einem Klick und **verriegelt dann Ihre Standardsuche** hart auf eine von Ihnen gewählte Suchmaschine über Windows-Enterprise-Richtlinien — damit nichts sie laut zurückholen kann.
+**AntiSogou Vanced** (ein Fork von [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)) findet **alle 28/39 Hijack-Vektoren**, entfernt sie mit einem Klick und **verriegelt dann Ihre Standardsuche** hart auf eine von Ihnen gewählte Suchmaschine über Windows-Enterprise-Richtlinien — damit nichts sie laut zurückholen kann.
 
 ## Funktionen
 
-- **Hijack-Scanner** — erkennt 40 Vektoren: Installationspfade, Uninstall-Registry-Einträge, `UserChoice`-Assoziation, `StartMenuInternet`-Registrierungen, `Software\Sogou`-Schlüsselbäume, Hijack über `DefaultSearchProvider*`-Richtlinien, Chromium-Profil-`Preferences`, Schlüsselwörter in `Web Data` (SQLite), Firefox `search.json.mozlz4`, Legacy-`SearchScopes`, Autostart-Einträge, geplante Aufgaben, Windows-Dienste, IME Switcher, Dateizuordnungen, Sogou-Disk-Shell-Integration, deaktivierter Autostart, App Paths, Verknüpfungen, ProgramData/Roaming-Reste, hosts-Einträge, Firewall-Regeln, URI-Protokolle, Browser-Erweiterungen, sogou.ru-Cookies, „Öffnen mit“-Zuordnungen, Prefetch/WER-Spuren, Defender-Ausschlüsse, Tastaturlayouts, IE-Startseiten-Hijack, Richtlinien für Start-URLs (`RestoreOnStartupURLs`), Firefox-Startseite, IE-Zonemap, RegisteredApplications-Einträge, MUICache-Spuren, %TEMP%-Installer, Store-Apps (Sogou Music, Alice), Produktverzeichnisse, lokale Datenverzeichnisse, Sogou.DNS
+- **Hijack-Scanner** — erkennt 28 Vektoren (VANCED) / 39 Vektoren (EXTENDED): Installationspfade, Uninstall-Registry-Einträge, `UserChoice`-Assoziation, `StartMenuInternet`-Registrierungen, `Software\Sogou`-Schlüsselbäume, Hijack über `DefaultSearchProvider*`-Richtlinien, Chromium-Profil-`Preferences`, Schlüsselwörter in `Web Data` (SQLite), Firefox `search.json.mozlz4`, Legacy-`SearchScopes`, Autostart-Einträge, geplante Aufgaben, Windows-Dienste, IME Switcher, Dateizuordnungen, Sogou-Disk-Shell-Integration, deaktivierter Autostart, App Paths, Verknüpfungen, ProgramData/Roaming-Reste, hosts-Einträge, Firewall-Regeln, URI-Protokolle, Browser-Erweiterungen, sogou.ru-Cookies, „Öffnen mit“-Zuordnungen, Prefetch/WER-Spuren, Defender-Ausschlüsse, Tastaturlayouts, IE-Startseiten-Hijack, Richtlinien für Start-URLs (`RestoreOnStartupURLs`), Firefox-Startseite, IE-Zonemap, RegisteredApplications-Einträge, MUICache-Spuren, %TEMP%-Installer, Store-Apps (Sogou Music), Produktverzeichnisse, lokale Datenverzeichnisse, Sogou.DNS
 - **Entfernung mit einem Klick** — jeder Vektor hat seinen eigenen Remover; gesperrte Datenbanken werden ehrlich gemeldet, ohne Abstürze
 - **Harte Suchrichtlinie** — verriegelt die Standardsuche auf eine von 10 Suchmaschinen (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) über HKLM-Richtlinien für Chrome, Edge, Brave, Vivaldi, Opera und Sogou Browser + `policies.json` für Firefox/Waterfox
 - **Richtlinien-Bereinigung** — entfernt Sogou-`DefaultSearchProvider*`-Werte aus der Registry
@@ -67,7 +67,7 @@ Eigenes EXE bauen: `build.bat` ausführen (PyInstaller, Ergebnis in `dist/`).
 
 ## Autor & Support
 
-**Nod33Eset** — Fork von [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou). Issues und PRs sind willkommen.
+**Nod33Eset** — Fork von [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Issues und PRs sind willkommen.
 
 Wenn dich das Tool von Sogou befreit hat, kannst du die Entwicklung unterstützen:
 
@@ -82,3 +82,5 @@ Wenn dich das Tool von Sogou befreit hat, kannst du die Entwicklung unterstütze
 ## Lizenz
 
 MIT — siehe [LICENSE](LICENSE).
+
+

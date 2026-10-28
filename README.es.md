@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/github/v/release/retvil/AntiSogouVanced?sort=date)](https://github.com/retvil/AntiSogouVanced/releases) [![Platform Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/retvil/AntiSogouVanced/releases) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
-**Elimina por completo Sogou Browser y bloquea tu buscador predeterminado contra el secuestro — 40 vectores de detección, 10 buscadores, 10 idiomas de interfaz.**
+**Elimina por completo Sogou Browser y bloquea tu buscador predeterminado contra el secuestro — 28/39 vectores de detección, 10 buscadores, 10 idiomas de interfaz.**
 
 [🇬🇧 English](README.md) | [🇷🇺 Русский](README.ru.md) | [🇺🇦 Українська](README.uk.md) | [🇰🇿 Қазақша](README.kk.md) | [🇩🇪 Deutsch](README.de.md) | [🇫🇷 Français](README.fr.md) | **🇪🇸 Español** | [🇵🇱 Polski](README.pl.md) | [🇹🇷 Türkçe](README.tr.md) | [🇨🇳 中文](README.zh.md)
 
@@ -10,11 +10,11 @@
 
 Sogou no instala solo un navegador — se registra silenciosamente como buscador y navegador predeterminado a través de cuarenta mecanismos del sistema: asociaciones en el registro, políticas de empresa, ajustes de perfiles de navegadores, incluso bases de datos de buscadores dentro de los perfiles Chromium. Eliminar el navegador por sí solo no deshace todo eso.
 
-**AntiSogou Vanced** (un fork de [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou)) encuentra **los 40 vectores de secuestro**, los elimina con un clic y luego **bloquea tu buscador predeterminado** al motor que elijas mediante políticas de empresa de Windows — para que nada pueda recuperarlo silenciosamente.
+**AntiSogou Vanced** (un fork de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)) encuentra **los 28/39 vectores de secuestro**, los elimina con un clic y luego **bloquea tu buscador predeterminado** al motor que elijas mediante políticas de empresa de Windows — para que nada pueda recuperarlo silenciosamente.
 
 ## Características
 
-- **Escáner de secuestros** — detecta 40 vectores: rutas de instalación, entradas Uninstall del registro, asociación `UserChoice`, registros `StartMenuInternet`, árboles de claves `Software\Sogou`, secuestro vía políticas `DefaultSearchProvider*`, `Preferences` de perfiles Chromium, palabras clave en `Web Data` (SQLite), `search.json.mozlz4` de Firefox, `SearchScopes` legacy, entradas de autostart, tareas programadas, servicios de Windows, IME Switcher, asociaciones de archivos, integración de shell de Sogou Disk, autostart deshabilitado, App Paths, accesos directos, restos en ProgramData/Roaming, entradas de hosts, reglas de firewall, protocolos URI, extensiones de navegador, cookies de sogou.ru, asociaciones «Abrir con», rastros Prefetch/WER, exclusiones de Defender, distribuciones de teclado, secuestro de la página de inicio de IE, políticas de URL de inicio (`RestoreOnStartupURLs`), página de inicio de Firefox, zone map de IE, entradas RegisteredApplications, rastros MUICache, instaladores en %TEMP%, aplicaciones de la Store (Sogou Music, Alice), directorios de productos, directorios de datos locales, Sogou.DNS
+- **Escáner de secuestros** — detecta 28 vectores (VANCED) / 39 vectores (EXTENDED): rutas de instalación, entradas Uninstall del registro, asociación `UserChoice`, registros `StartMenuInternet`, árboles de claves `Software\Sogou`, secuestro vía políticas `DefaultSearchProvider*`, `Preferences` de perfiles Chromium, palabras clave en `Web Data` (SQLite), `search.json.mozlz4` de Firefox, `SearchScopes` legacy, entradas de autostart, tareas programadas, servicios de Windows, IME Switcher, asociaciones de archivos, integración de shell de Sogou Disk, autostart deshabilitado, App Paths, accesos directos, restos en ProgramData/Roaming, entradas de hosts, reglas de firewall, protocolos URI, extensiones de navegador, cookies de sogou.ru, asociaciones «Abrir con», rastros Prefetch/WER, exclusiones de Defender, distribuciones de teclado, secuestro de la página de inicio de IE, políticas de URL de inicio (`RestoreOnStartupURLs`), página de inicio de Firefox, zone map de IE, entradas RegisteredApplications, rastros MUICache, instaladores en %TEMP%, aplicaciones de la Store (Sogou Music), directorios de productos, directorios de datos locales, Sogou.DNS
 - **Eliminación con un clic** — cada vector tiene su propio remover; las bases bloqueadas se reportan honestamente, sin crashes
 - **Política estricta de búsqueda** — bloquea el buscador predeterminado a uno de 10 motores (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) vía políticas HKLM para Chrome, Edge, Brave, Vivaldi, Opera y Sogou Browser + `policies.json` para Firefox/Waterfox
 - **Limpieza de políticas** — purga los valores `DefaultSearchProvider*` de Sogou del registro
@@ -67,7 +67,7 @@ Compilar tu propio EXE: ejecuta `build.bat` (PyInstaller, resultado en `dist/`).
 
 ## Autor y apoyo
 
-**Nod33Eset** — fork de [TheCawa/AntiSogou](https://github.com/TheCawa/AntiSogou). Issues y PR bienvenidos.
+**Nod33Eset** — fork de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Issues y PR bienvenidos.
 
 Si la herramienta te libró de Sogou, puedes apoyar el desarrollo:
 
@@ -82,3 +82,5 @@ Si la herramienta te libró de Sogou, puedes apoyar el desarrollo:
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).
+
+
