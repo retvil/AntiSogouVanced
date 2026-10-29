@@ -10,7 +10,7 @@
 
 Sogou yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla sessizce varsayılan arama ve tarayıcı olarak kaydolur: kayıt defteri ilişkilendirmeleri, enterprise ilkeleri, tarayıcı profil ayarları, hatta Chromium profillerinin içindeki arama motoru veritabanları. Tarayıcıyı tek başına kaldırmak bunların hepsini geri almaz.
 
-**AntiSogou Vanced** ([TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) çatalı) **40 ele geçirme vektörünün tamamını** bulur, tek tıkla kaldırır ve ardından varsayılan aramanızı seçtiğiniz arama motoruna Windows enterprise ilkeleriyle **sabit şekilde kilitler** — hiçbir şey sessizce geri alamasın diye.
+**AntiSogou Vanced** ([retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) çatalı) **40 ele geçirme vektörünün tamamını** bulur, tek tıkla kaldırır ve ardından varsayılan aramanızı seçtiğiniz arama motoruna Windows enterprise ilkeleriyle **sabit şekilde kilitler** — hiçbir şey sessizce geri alamasın diye.
 
 ## Özellikler
 
@@ -67,7 +67,7 @@ Kendi EXE'nizi derlemek için: `build.bat` çalıştırın (PyInstaller, çıkt�
 
 ## Yazar ve destek
 
-Автор: **Nod33Eset**. Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Мы уже ушли далеко от простого форка.
+Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
 
 Araç sizi Sogou'ten kurtardıysa, geliştirmeyi destekleyebilirsiniz:
 

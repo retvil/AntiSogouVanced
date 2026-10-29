@@ -10,7 +10,7 @@
 
 Sogou n'installe pas qu'un navigateur — il s'enregistre silencieusement comme recherche et navigateur par défaut via quarante mécanismes système : associations dans le registre, politiques d'entreprise, paramètres de profils de navigateurs, même les bases de données de moteurs de recherche dans les profils Chromium. Supprimer le navigateur seul ne suffit pas.
 
-**AntiSogou Vanced** (un fork de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)) trouve **les 28 vecteurs (VANCED) / 39 (EXTENDED) de détournement**, les supprime en un clic, puis **verrouille ta recherche par défaut** sur le moteur de ton choix via les politiques d'entreprise Windows — pour que rien ne puisse la reprendre silencieusement.
+**AntiSogou Vanced** (un fork de [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced)) trouve **les 28 vecteurs (VANCED) / 39 (EXTENDED) de détournement**, les supprime en un clic, puis **verrouille ta recherche par défaut** sur le moteur de ton choix via les politiques d'entreprise Windows — pour que rien ne puisse la reprendre silencieusement.
 
 ## Fonctionnalités
 
@@ -67,7 +67,7 @@ Compiler votre propre EXE : lancez `build.bat` (PyInstaller, résultat dans `dis
 
 ## Auteur & support
 
-Автор: **Nod33Eset**. Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Мы уже ушли далеко от простого форка.
+Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
 
 Si l'outil t'a débarrassé de Sogou, tu peux soutenir le développement :
 

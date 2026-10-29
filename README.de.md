@@ -10,7 +10,7 @@
 
 Sogou installiert nicht nur einen Browser — es trägt sich still über vierzig Systemmechanismen als Standardsuche und Standardbrowser ein: Registry-Assoziationen, Enterprise-Richtlinien, Profileinstellungen von Browsern, sogar Suchmaschinen-Datenbanken in Chromium-Profilen. Allein das Entfernen des Browsers macht das nicht rückgängig.
 
-**AntiSogou Vanced** (ein Fork von [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)) findet **alle 28/39 Hijack-Vektoren**, entfernt sie mit einem Klick und **verriegelt dann Ihre Standardsuche** hart auf eine von Ihnen gewählte Suchmaschine über Windows-Enterprise-Richtlinien — damit nichts sie laut zurückholen kann.
+**AntiSogou Vanced** (ein Fork von [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced)) findet **alle 28/39 Hijack-Vektoren**, entfernt sie mit einem Klick und **verriegelt dann Ihre Standardsuche** hart auf eine von Ihnen gewählte Suchmaschine über Windows-Enterprise-Richtlinien — damit nichts sie laut zurückholen kann.
 
 ## Funktionen
 
@@ -67,7 +67,7 @@ Eigenes EXE bauen: `build.bat` ausführen (PyInstaller, Ergebnis in `dist/`).
 
 ## Autor & Support
 
-Автор: **Nod33Eset**. Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Мы уже ушли далеко от простого форка.
+Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
 
 Wenn dich das Tool von Sogou befreit hat, kannst du die Entwicklung unterstützen:
 

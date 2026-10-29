@@ -67,7 +67,7 @@ python main.py
 
 ## Автор і підтримка
 
-Автор: **Nod33Eset**. Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Мы уже ушли далеко от простого форка.
+Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
 
 Якщо інструмент позбавив вас від Sogouа — можна підтримати розробку:
 

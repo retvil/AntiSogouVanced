@@ -10,7 +10,7 @@
 
 Sogou nie instaluje tylko przeglądarki — po cichu rejestruje się jako domyślna wyszukiwarka i przeglądarka przez czterdzieści różnych mechanizmów systemu: asocjacje w rejestrze, polityki enterprise, ustawienia profili przeglądarek, a nawet bazy wyszukiwarek wewnątrz profili Chromium. Samo usunięcie przeglądarki tego nie cofa.
 
-**AntiSogou Vanced** (fork [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)) znajduje **wszystkie 28 wektorów (VANCED) / 39 (EXTENDED) przejęcia**, usuwa je jednym kliknięciem, a następnie **twardo blokuje wyszukiwarkę domyślną** na wybranej przez Ciebie wyszukiwarce przez polityki enterprise Windows — żeby nic nie mogło po cichu przywrócić starych ustawień.
+**AntiSogou Vanced** (fork [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced)) znajduje **wszystkie 28 wektorów (VANCED) / 39 (EXTENDED) przejęcia**, usuwa je jednym kliknięciem, a następnie **twardo blokuje wyszukiwarkę domyślną** na wybranej przez Ciebie wyszukiwarce przez polityki enterprise Windows — żeby nic nie mogło po cichu przywrócić starych ustawień.
 
 ## Funkcje
 
@@ -67,7 +67,7 @@ Budowa własnego EXE: uruchom `build.bat` (PyInstaller, wynik w `dist/`).
 
 ## Autor i wsparcie
 
-Автор: **Nod33Eset**. Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Мы уже ушли далеко от простого форка.
+Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
 
 Jeśli narzędzie uwolniło Cię od Sogoua — możesz wesprzeć rozwój:
 

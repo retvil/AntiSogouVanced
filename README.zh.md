@@ -10,7 +10,7 @@
 
 Sogou 安装的不只是一个浏览器 — 它通过四十种不同的系统机制悄悄把自己注册为默认搜索和默认浏览器：注册表关联、企业策略、浏览器配置文件设置，甚至 Chromium 配置文件内部的搜索引擎数据库。仅删除浏览器并不能撤销这一切。
 
-**AntiSogou Vanced**（[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 的 fork）会找出**全部 28 个向量 (VANCED) / 39 (EXTENDED)**，一键清除它们，然后通过 Windows 企业策略**将默认搜索硬性锁定**到你选择的搜索引擎 — 让任何东西都无法悄悄改回去。
+**AntiSogou Vanced**（[retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) 的 fork）会找出**全部 28 个向量 (VANCED) / 39 (EXTENDED)**，一键清除它们，然后通过 Windows 企业策略**将默认搜索硬性锁定**到你选择的搜索引擎 — 让任何东西都无法悄悄改回去。
 
 ## 功能
 
@@ -67,7 +67,7 @@ python main.py
 
 ## 作者与支持
 
-Автор: **Nod33Eset**. Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Мы уже ушли далеко от простого форка.
+Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
 
 如果这个工具帮你摆脱了 Sogou，可以支持一下开发：
 
