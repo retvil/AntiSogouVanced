@@ -67,7 +67,7 @@ Eigenes EXE bauen: `build.bat` ausführen (PyInstaller, Ergebnis in `dist/`).
 
 ## Autor & Support
 
-Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
+Изначальная идея: [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced)
 
 Wenn dich das Tool von Sogou befreit hat, kannst du die Entwicklung unterstützen:
 
@@ -82,6 +82,8 @@ Wenn dich das Tool von Sogou befreit hat, kannst du die Entwicklung unterstütze
 ## Lizenz
 
 MIT — siehe [LICENSE](LICENSE).
+
+
 
 
 

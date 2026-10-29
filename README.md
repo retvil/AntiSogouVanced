@@ -75,7 +75,7 @@ Build your own EXE: run `build.bat` (PyInstaller, output in `dist/`).
 
 ## Author & support
 
-Автор: **Nod33Eset**. Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Мы уже ушли далеко от простого форка. Issues and PRs are welcome.
+Author: **Nod33Eset**. Original idea: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). We have moved well beyond a simple fork. Issues and PRs are welcome.
 
 If the tool saved you from Sogou, you can support development:
 
@@ -90,6 +90,10 @@ If the tool saved you from Sogou, you can support development:
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+
+
+
 
 
 
