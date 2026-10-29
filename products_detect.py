@@ -1,6 +1,6 @@
 """Extended-edition scans: whole Sogou products beyond the browser.
 
-Covers Store (Appx) applications — Sogou Music, Alice, Messenger, etc. —
+Covers Store (Appx) applications — Sogou Music, Messenger, Messenger, etc. —
 and product install directories under Program Files\\Sogou that are not
 the browser itself.
 """
@@ -22,7 +22,7 @@ def is_product_process(name: str | None) -> bool:
     """True if a process belongs to any Sogou product (Extended kill scope).
 
     Covers Sogou Disk (SogouDisk2.exe), Sogou Disk (sogoudisk.exe),
-    Store apps (Sogou Music / Messenger / Alice) and the browser itself.
+    Store apps (Sogou Music / Messenger / Messenger) and the browser itself.
     """
     lowered = (name or "").lower()
     return lowered in _BROWSER_PROCESS_NAMES or any(

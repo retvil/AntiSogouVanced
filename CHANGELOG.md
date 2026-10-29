@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.6.0] - 2026-10-21
 
 ### Added
-- **Extended edition**: Store (Appx) app scan — detects Sogou Music, Alice,
+- **Extended edition**: Store (Appx) app scan — detects Sogou Music, Messenger,
   Messenger and other Sogou Store apps, removes them via `Remove-AppxPackage`
 - **Extended edition**: non-browser product directory scan under
   `Program Files\Sogou\` (Sogou Disk, IME Switcher, IME, ...) with
