@@ -26,7 +26,7 @@ Sogou no instala solo un navegador — se registra silenciosamente como buscador
 <details>
 <summary>Ventana principal</summary>
 
-![Ventana principal de AntiSogouVanced](docs/screenshot.png)
+![Ventana principal de AntiSogouVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Si la herramienta te libró de Sogou, puedes apoyar el desarrollo:
 
 ## Licencia
 
-MIT — ver [LICENSE](LICENSE).
+MIT — ver [LICENSE](../LICENSE).
 
 
 

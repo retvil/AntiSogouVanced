@@ -26,7 +26,7 @@ Sogou nie instaluje tylko przeglądarki — po cichu rejestruje się jako domyś
 <details>
 <summary>Okno główne</summary>
 
-![Okno główne AntiSogouVanced](docs/screenshot.png)
+![Okno główne AntiSogouVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Jeśli narzędzie uwolniło Cię od Sogoua — możesz wesprzeć rozwój:
 
 ## Licencja
 
-MIT — zob. [LICENSE](LICENSE).
+MIT — zob. [LICENSE](../LICENSE).
 
 
 

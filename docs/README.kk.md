@@ -26,7 +26,7 @@ Sogou жай ғана браузер орнатпайды — ол жүйені�
 <details>
 <summary>Негізгі терезе</summary>
 
-![AntiSogouVanced негізгі терезесі](docs/screenshot.png)
+![AntiSogouVanced негізгі терезесі](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — қ. [LICENSE](LICENSE).
+MIT — қ. [LICENSE](../LICENSE).
 
 
 

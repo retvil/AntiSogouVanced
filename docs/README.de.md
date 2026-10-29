@@ -26,7 +26,7 @@ Sogou installiert nicht nur einen Browser — es trägt sich still über vierzig
 <details>
 <summary>Hauptfenster</summary>
 
-![AntiSogouVanced Hauptfenster](docs/screenshot.png)
+![AntiSogouVanced Hauptfenster](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Wenn dich das Tool von Sogou befreit hat, kannst du die Entwicklung unterstütze
 
 ## Lizenz
 
-MIT — siehe [LICENSE](LICENSE).
+MIT — siehe [LICENSE](../LICENSE).
 
 
 

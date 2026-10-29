@@ -26,7 +26,7 @@ Sogou yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla s
 <details>
 <summary>Ana pencere</summary>
 
-![AntiSogouVanced ana penceresi](docs/screenshot.png)
+![AntiSogouVanced ana penceresi](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Araç sizi Sogou'ten kurtardıysa, geliştirmeyi destekleyebilirsiniz:
 
 ## Lisans
 
-MIT — bkz. [LICENSE](LICENSE).
+MIT — bkz. [LICENSE](../LICENSE).
 
 
 

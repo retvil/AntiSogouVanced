@@ -26,7 +26,7 @@ Sogou встановлює не просто браузер — він тихо 
 <details>
 <summary>Головне вікно</summary>
 
-![Головне вікно AntiSogouVanced](docs/screenshot.png)
+![Головне вікно AntiSogouVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Ліцензія
 
-MIT — див. [LICENSE](LICENSE).
+MIT — див. [LICENSE](../LICENSE).
 
 
 

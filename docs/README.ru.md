@@ -26,7 +26,7 @@ Sogou ставит не просто браузер — он тихо пропи
 <details>
 <summary>Главное окно</summary>
 
-![Главное окно AntiSogouVanced](docs/screenshot.png)
+![Главное окно AntiSogouVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — см. [LICENSE](LICENSE).
+MIT — см. [LICENSE](../LICENSE).
 
 
 
