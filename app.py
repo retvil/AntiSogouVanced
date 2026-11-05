@@ -27,13 +27,6 @@ import updater
 import watchdog
 import sogou_detect
 
-FLAG_LINE = ("🇬🇧 English | 🇷🇺 Русский | 🇺🇦 Українська | 🇰🇿 Қазақша | 🇩🇪 Deutsch | 🇫🇷 Français | 🇪🇸 Español | 🇵🇱 Polski | 🇹🇷 Türkçe | 🇨🇳 中文")
-LANG_ICON_ITEMS: list[tuple[str, str, str]] = [
-    ("en", "🇬🇧", "English"), ("ru", "🇷🇺", "Русский"), ("uk", "🇺🇦", "Українська"),
-    ("kk", "🇰🇿", "Қазақша"), ("de", "🇩🇪", "Deutsch"), ("fr", "🇫🇷", "Français"),
-    ("es", "🇪🇸", "Español"), ("pl", "🇵🇱", "Polski"), ("tr", "🇹🇷", "Türkçe"),
-    ("zh", "🇨🇳", "中文"),
-]
 APP_VERSION = "1.3.0"
 APP_AUTHOR = "Nod33Eset"
 GITHUB_URL = "https://github.com/retvil/AntiSogouVanced"
@@ -63,7 +56,6 @@ findings_box: tk.Text
 engine_menu: ttk.Combobox
 
 last_findings: list[str] = []
-
 
 def t(key):
     return translations.t(language, key)
@@ -634,9 +626,6 @@ def run(profile_name: str) -> None:
         btn_export.configure(text=t("export_btn"))
         chk_watchdog.configure(text=t("watchdog_label"))
         lang_label.configure(text=t("lang_label"))
-        global lang_flag_label
-        if "lang_flag_label" in globals():
-            lang_flag_label.configure(text=FLAG_LINE)
         update_status(t("status_wait"))
         _render_findings([])  # stale findings are in the previous language
 
@@ -649,7 +638,4 @@ def run(profile_name: str) -> None:
     root.after(800, check_update_ui)
 
     root.mainloop()
-
-
-
 
